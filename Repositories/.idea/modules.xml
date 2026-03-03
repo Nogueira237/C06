@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ex001/Ex001.iml" filepath="$PROJECT_DIR$/Ex001/Ex001.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ex002/Ex002.iml" filepath="$PROJECT_DIR$/Ex002/Ex002.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ex004/Ex004.iml" filepath="$PROJECT_DIR$/Ex004/Ex004.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ex005/Ex005.iml" filepath="$PROJECT_DIR$/Ex005/Ex005.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ex006/Ex006.iml" filepath="$PROJECT_DIR$/Ex006/Ex006.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ex007/Ex007.iml" filepath="$PROJECT_DIR$/Ex007/Ex007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02IntroPOO/02IntroPOO.iml" filepath="$PROJECT_DIR$/02IntroPOO/02IntroPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01RevAlg/Ex001/Ex001.iml" filepath="$PROJECT_DIR$/01RevAlg/Ex001/Ex001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01RevAlg/Ex002/Ex002.iml" filepath="$PROJECT_DIR$/01RevAlg/Ex002/Ex002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01RevAlg/Ex004/Ex004.iml" filepath="$PROJECT_DIR$/01RevAlg/Ex004/Ex004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01RevAlg/Ex005/Ex005.iml" filepath="$PROJECT_DIR$/01RevAlg/Ex005/Ex005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01RevAlg/Ex006/Ex006.iml" filepath="$PROJECT_DIR$/01RevAlg/Ex006/Ex006.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Repositories.iml" filepath="$PROJECT_DIR$/.idea/Repositories.iml" />
     </modules>
   </component>
