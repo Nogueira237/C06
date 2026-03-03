@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96d3bb3e-f832-4364-aed0-102496b2e5d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01RevAlg/Ex001/Ex001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01RevAlg/Ex002/Ex002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01RevAlg/Ex004/Ex004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01RevAlg/Ex005/Ex005.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01RevAlg/Ex006/Ex006.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02IntroPOO/02IntroPOO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02IntroPOO/Ex001/Ex001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02IntroPOO/Ex001/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02IntroPOO/Ex001/src/Zumbi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex001/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex001/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex001/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex001/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex001/Ex001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex001/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/Ex002.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex002/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex004/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex004/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex004/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex004/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex004/Ex004.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex004/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex005/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex005/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex005/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex005/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex005/Ex005.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex005/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex006/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex006/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex006/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex006/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex006/Ex006.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex006/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex006/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex007/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nogueira237&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nogueira237/C06.git&quot;,
+    &quot;accountId&quot;: &quot;a79e4317-7612-4c72-a819-f2b44ab8db09&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3ARXEEvBEWcK14mKnFZAsWOmINe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96d3bb3e-f832-4364-aed0-102496b2e5d5" name="Changes" comment="" />
+      <created>1772556242977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772556242977</updated>
+      <workItem from="1772556244203" duration="71000" />
+      <workItem from="1772556342004" duration="1242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
