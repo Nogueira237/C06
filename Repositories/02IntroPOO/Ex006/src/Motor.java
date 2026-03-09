@@ -5,10 +5,10 @@ public class Motor {
     public float velocidadeMaxima;
 
     // Construtor
-    public Motor(String cilindradas, float velocidadeMaxima){
+    /*public Motor(String cilindradas, float velocidadeMaxima){
         this.cilindradas = cilindradas;
         this.velocidadeMaxima = velocidadeMaxima;
-    }
+    }*/
 
     // Metodo
     public void mostraInfo(){
