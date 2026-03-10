@@ -2,7 +2,8 @@ public class Cantina{
 
     // Atributos
     public String nome;
-    public Salgado salgados[];
+    public Salgado salgados[];      // Associacao com classe 'salgados'
+    //  Salgado [] salgados = new Salgado[3]; <- se não for usar construtor
 
     //Construtor
     public Cantina(String nome){
@@ -21,7 +22,7 @@ public class Cantina{
     public void mostraInfo(){
         System.out.println("Salgados da cantina:");
         for (int i = 0; i < salgados.length; i++){
-            System.out.println("Salgado " + i + ": " + salgados[i].nome);
+            System.out.println("Salgado " + (i+1) + ": " + salgados[i].nome);
         };
     };
 }
