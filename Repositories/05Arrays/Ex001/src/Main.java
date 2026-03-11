@@ -2,44 +2,56 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    static void main() {
-
-        // Matriz boolean para o campo minado
-        boolean[][] localizacao;
-        localizacao = new boolean[2][2];
-
-        // Preenchendo a matriz com false
-        for (int i = 0; i < localizacao.length; i++){
-            for (int j = 0; j < localizacao.length; j++){
-                localizacao[i][j] = false;
-            };
-        };
-
-        // Gerando mina aleatoria
-        Random rand = new Random();
-        int x = rand.nextInt(2);
-        int y = rand.nextInt(2);
-        localizacao[x][y] = true;       // posicao da mina
+    public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        boolean ganhou = false;
+        Random rand = new Random();
 
-        do{
-            for(int i = 0; i < 3; i++) {
+        while(true){
+            // Matriz int para o campo minado
+            int[][] localizacao;
+            localizacao = new int[2][2];
+
+            // Preenchendo a matriz com false
+            for (int i = 0; i < localizacao.length; i++){
+                for (int j = 0; j < localizacao[i].length; j++){
+                    localizacao[i][j] = 0;
+                };
+            };
+
+            // Gerando mina aleatoria
+            int x = rand.nextInt(2);
+            int y = rand.nextInt(2);
+            localizacao[x][y] = -1;       // posicao da mina
+
+
+            boolean perdeu = false;
+
+
+            for(int i = 0;i < 3; i++){
+
+                System.out.println("Digite X e Y: ");
                 int userX = entrada.nextInt();
                 int userY = entrada.nextInt();
-
-                if (localizacao[userX][userY] == true) {
+                if (localizacao[userX][userY] == -1) {
                     System.out.println("Perdeu!");
+                    perdeu = true;
                     break;
-                } else {
-                    System.out.println("Digite a próxima localização");
+                }
+                else {
+                    System.out.println("Seguro!");
+                    localizacao[userX][userY] = 1;
                 };
-
             }
-            System.out.println("Ganhou!");
-            ganhou = true;
-        }while(ganhou == false);
+
+            if (!perdeu) {
+                System.out.println("Ganhou!");
+                break;
+            };
+
+
+        }
+        entrada.close();
     }
 
 }
