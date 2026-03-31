@@ -25,6 +25,11 @@ public class Computador {
 
     // Métodos
 
+    // getter para o preço do computador
+    public float getPreco(){
+        return preco;
+    };
+
     // setter para adicionar uma memória se necessário
     public void setMemoriaUSB(MemoriaUSB memoria){
         this.memoriaUSB = memoria;
