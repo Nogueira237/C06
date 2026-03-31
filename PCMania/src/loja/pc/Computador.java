@@ -11,15 +11,15 @@ public class Computador {
     private float preco;
     private MemoriaUSB memoriaUSB;                      // Agregação memoriaUSB
     private SistemaOperacional sistemaOperacional;      // Composição S.O
-    private HardwareBasico[] hardwareBasico;            // COmposição Hardware básico
+    private HardwareBasico[] hardwareBasico;            // Composição Hardware básico
 
     // Construtor
-    public Computador(String marca, float preco, SistemaOperacional sistemaOperacional){
+    public Computador(String marca, float preco, SistemaOperacional sistemaOperacional, HardwareBasico[] hardwareBasico){
         this.marca = marca;
         this.preco = preco;
-        this.memoriaUSB = null;                             // pode ser 0 (no naso, null)
-        this.sistemaOperacional =   sistemaOperacional;     // obrigatório
-        this.hardwareBasico = new HardwareBasico[3];        // obrigatório
+        this.memoriaUSB = null;                              // pode ser 0 (no naso, null)
+        this.sistemaOperacional = sistemaOperacional;       // obrigatório
+        this.hardwareBasico = new HardwareBasico[2];       // obrigatório
 
     };
 
