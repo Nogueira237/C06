@@ -4,6 +4,9 @@ import loja.pc.componentes.HardwareBasico;
 import loja.pc.componentes.MemoriaUSB;
 import loja.pc.componentes.SistemaOperacional;
 
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.Scanner;
+
 public class Main {
     static void main(String[] args) {
 
@@ -54,29 +57,56 @@ public class Main {
         computador3.setMemoriaUSB(memoriaUSB3);     // adiciona a memoriaUSB depois, pois pode ter 0 ou 1 memorias no computador
 
 
-        // Criando pedido do cliente 1
-        Computador[] computadores1 = {computador1, computador2};
-        Computador[] computadores2 = {computador1, computador3};
-        Computador[] computadores3 = {computador2, computador3};
-        Computador[] computadores4 = {computador1, computador2, computador3};
+        // cliente teste
+        Cliente cliente1 = new Cliente("Tester", "123.456.789-10");
 
-        Cliente cliente1 = new Cliente("Eduardo", "123.456.789-10");
-        Cliente cliente2 = new Cliente("Joao", "456.789.123-09");
-        Cliente cliente3 = new Cliente("Pedro", "789.123.456-08");
-        Cliente cliente4 = new Cliente("Felipe", "123.123.123-07");
+        // contadores
+        int cont = 0, comp1 = 0, comp2 = 0, comp3 = 0;
+        Scanner entrada = new Scanner(System.in);
 
-        cliente1.addComputador(computador1);
-        cliente1.addComputador(computador2);
+        // interface de compra
+        System.out.println("-----Computadores disponíveis-----");
+        System.out.println("Computador 1: R$597");
+        System.out.println("Computador 2: R$1831");
+        System.out.println("Computador 3: R$6275");
+        System.out.println("-----Para escolher digite [1], [2] ou [3]-----");
+        System.out.println("-----Para finalizar digite [0]-----");
 
-        cliente2.addComputador(computador1);
-        cliente2.addComputador(computador2);
-        cliente2.addComputador(computador3);
+        // lógica de compra
+        int op;
+        do{
+            op = entrada.nextInt();     // seleciona pc 1,2,3 ou finaliza o pedido (0)
 
-        cliente3.addComputador(computador2);
-        cliente3.addComputador(computador3);
+            if(op == 1){
+                cliente1.addComputador(computador1);
+                cont++;     // contador para comprar no minimo 2 computadores
+                comp1++;    // contador para controle de quantos pcs do tipo 1 foram comprados pelo cliente
+            }
+            else if(op == 2){
+                cliente1.addComputador(computador2);
+                cont++;
+                comp2++;
+            }
+            else if(op == 3){
+                cliente1.addComputador(computador3);
+                cont++;
+                comp3++;
+            }
+            else if(op == 0 && cont < 2){
+                System.out.println("É necessário comprar no mínimo 2 computadores!");   // tenta finalizar sem ter comprado 2 pcs
+            }
+            else if(op == 0 && cont >= 2){                      // compra deu certo
+                System.out.println("Finalizando pedido...");
+                System.out.println("Você comprou um total de " + comp1 + " computadores do tipo 1, " + comp2 + " computadores do tipo 2 e " +
+                        comp3 + " computadores do tipo 3.");
+                System.out.println("Preço final: R$" + cliente1.calculaTotalCompra());
+            }
+            else{
+                System.out.println("Erro! Número digitado fora do intervalo aceito [0-3]");
+            };
 
-        System.out.println(cliente1.calculaTotalCompra());
-        System.out.println(cliente2.calculaTotalCompra());
-        System.out.println(cliente3.calculaTotalCompra());
+        }while(op != 0 || cont < 2);
+
+    entrada.close();
     }
 }
