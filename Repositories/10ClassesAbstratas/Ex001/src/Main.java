@@ -15,5 +15,10 @@ public class Main {
         c1.emitirSom();
         l1.emitirSom();
 
+        b1.mostraInfo();
+        c1.mostraInfo();
+        l1.mostraInfo();
+
+
     }
 }

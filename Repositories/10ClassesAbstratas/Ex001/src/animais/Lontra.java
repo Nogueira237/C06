@@ -13,6 +13,6 @@ public class Lontra extends Mamifero {
 
     @Override
     public void emitirSom() {
-        System.out.println("Lontra emitiu som");
+        System.out.println("Lontra emitiu som.\n");
     }
 }

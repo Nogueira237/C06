@@ -13,6 +13,6 @@ public class Boi extends Mamifero {
 
     @Override
     public void emitirSom() {
-        System.out.println("Boi emitiu som");
+        System.out.println("Boi emitiu som.\n");
     }
 }

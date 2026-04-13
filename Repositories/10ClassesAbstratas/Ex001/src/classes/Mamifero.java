@@ -17,7 +17,7 @@ public abstract class Mamifero {
 
     public void mostraInfo(){
         System.out.println("Nome: " + this.nome);
-        System.out.println("Vida: " + this.vida);
+        System.out.println("Vida: " + this.vida + "\n");
     };
 
 
