@@ -1,9 +1,8 @@
 package animais;
 
-import interfaces.Aquatico;
 import classes.Mamifero;
 
-public class Lontra extends Mamifero implements Aquatico {
+public class Lontra extends Mamifero {
 
     // Contrutor
     public Lontra(String nome, double vida){
@@ -15,10 +14,5 @@ public class Lontra extends Mamifero implements Aquatico {
     @Override
     public void emitirSom() {
         System.out.println("Lontra emitiu som.\n");
-    }
-
-    @Override
-    public void nadar() {
-        System.out.println("Lontra está nadando. \n");
     }
 }

@@ -15,4 +15,5 @@ public class Boi extends Mamifero {
     public void emitirSom() {
         System.out.println("Boi emitiu som.\n");
     }
+
 }

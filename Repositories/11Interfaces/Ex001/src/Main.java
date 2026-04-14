@@ -1,6 +1,6 @@
+import animais.Boi;
 import animais.Cachorro;
 import animais.Lontra;
-import animais.Boi;
 
 public class Main {
     static void main(String[] args) {
@@ -18,8 +18,6 @@ public class Main {
         b1.mostraInfo();
         c1.mostraInfo();
         l1.mostraInfo();
-        
-        l1.nadar();
 
 
     }

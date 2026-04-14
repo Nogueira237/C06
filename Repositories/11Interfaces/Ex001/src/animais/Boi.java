@@ -2,10 +2,10 @@ package animais;
 
 import classes.Mamifero;
 
-public class Cachorro extends Mamifero{
+public class Boi extends Mamifero {
 
     // Contrutor
-    public Cachorro(String nome, double vida){
+    public Boi(String nome, double vida){
         super(nome, vida);
     };
 
@@ -13,7 +13,6 @@ public class Cachorro extends Mamifero{
 
     @Override
     public void emitirSom() {
-        System.out.println("Cachorro emitiu som.\n");
+        System.out.println("Boi emitiu som.\n");
     }
-
 }
